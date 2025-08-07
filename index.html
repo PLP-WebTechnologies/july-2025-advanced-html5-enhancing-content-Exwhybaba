@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizon Events</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Horizon Events</h1>
+        <p>Plan your next conference, workshop, or meetup with ease. 
+            We bring together venues, speakers, and attendees in one seamless platform.</p>
+    </header>
+
+
+    <main>
+        <section>
+            <h3>Features List</h3>
+            <ul>
+                <li>Instant Venue Booking</li>
+                <li>Speaker Management</li>
+                <li>Automated Email Reminders</li>
+                <li>Real-Time Attendee Analytics</li>
+                <li>Custom Branding Options</li>
+            </ul>
+        </section>
+
+        <section>
+            <h3>Pricing Table</h3>
+            <p>Organize your pricing plans in a simple table:</p>
+            <table border="1" cellpadding="5" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Plan Name</th>
+                        <th>Monthly Fee</th>
+                        <th>Included Events</th>
+                        <th>Support Level</th>
+                    </tr>
+                </thead>
+                	
+                <tbody>
+                    <tr>
+                        <td>Starter</td>
+                        <td>$19</td>
+                        <td>Up to 2</td>
+                        <td>Community Forum</td>
+                    </tr>
+                    <tr>
+                        <td>Professional</td>
+                        <td>$49</td>
+                        <td>Up to 10</td>
+                        <td>Email & Chat</td>
+                    </tr>
+                    <tr>
+                        <td>Enterprise</td>
+                        <td>$129</td>
+                        <td>Unlimited</td>
+                        <td>Dedicated Manager</td>
+                    </tr>
+                </tbody>
+
+            </table>
+
+        </section>
+
+        <section>
+            <h3>Media Showcase</h3>
+            <img src="data/conference_images.jpeg" alt="confrence Image" width="500px">
+            <div>
+                <p>Listen to our latest conference highlights:</p>
+                <audio autofocus="autoplay" controls>
+                    <source src="data/Conv.mp3" type="audio/mpeg">
+                    
+                </audio>
+
+                <p>Watch our promotional video:</p>
+                <video autofocus="autoplay" controls>
+                <source src="https://dm0qx8t0i9gc9.cloudfront.net/watermarks/video/NL0L5N5Rgimkt8edi/videoblocks-a-business-conference-in-the-hall-people-sitting-on-the-chairs-and-watching-the-presentation_signy9qfn__587aac8faa20b50d8971d58b888474c8__P360.mp4" type="video/mp4">
+            </video>
+            </div>
+           
+        </section>
+
+        <section>
+
+            <form>
+                <fieldset>
+                    <legend>Registration Form</legend>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" required placeholder="Jane"
+                        minlength="2", autocomplete="given-name">
+                    <br><br>
+
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" required placeholder="Doe"
+                        minlength="2", autocomplete="given-name">
+                    <br><br>
+
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required placeholder="you@gmail.com"
+                        minlength="2", autocomplete="email">
+                    <br><br>
+
+                    <label for="psswrd">Create Password:</label>
+                    <input type="password" id="psswrd" name="psswrd" required placeholder="********"
+                        minlength="8", autocomplete="given-name">
+    
+                <br><br>
+                <!-- Profile Details  -->
+                    <label for="dob">Date of Birth</label>
+                    <input type="date" id="dob" name="dob" required placeholder="YYYY-MM-DD"
+                        autocomplete="bday">
+                    <br><br>
+
+                    <label for = "age">Age</label>
+                    <input type="number" id="age" name="age" required placeholder="18"
+                        min="18" max="100" autocomplete="bday">
+                    <br><br>
+
+                <!-- Preferences -->
+                    <label for="country">Choose Your Country of Residence:</label>
+                        <select name="country" id="country">
+                            <option value="nigeria">Nigeria</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="south_africa">South Africa</option>
+                            <option value="tanzania">Tanzania</option>
+                            <option value="uganda">Uganda</option>      
+                            <option value="zambia">Zambia</option>
+                            <option value="rwanda">Rwanda</option>
+                            <option value="malawi">Malawi</option>
+                            <option value="zimbabwe">Zimbabwe</option>
+                            <option value="cameroon">Cameroon</option>      
+                            <option value="USA">USA</option>
+                            <option value="UK">UK</option>
+                            <option value="canada">Canada</option>
+                            <option value="australia">Australia</option>
+                            <option value="india">India</option>
+                            <option value="china">China</option>
+                            <option value="brazil">Brazil</option>
+                            <option value="france">France</option>
+                            <option value="germany">Germany</option>
+                        </select>
+                    
+                <br><br>
+                <!-- Area of Interest -->
+                
+                    <label for="technology">
+                        <input type="checkbox" id="technology" name="interest" value="technology">
+                        Technology
+                    </label><br>
+
+                    <label for="business">
+                        <input type="checkbox" id="business" name="interest" value="business">
+                        Business
+                    </label><br>
+
+                    <label for="design">
+                        <input type="checkbox" id="design" name="interest" value="design">
+                        Design
+                    </label><br>
+
+                    <label for="NE">
+                        <input type="checkbox" id="NE" name="interest" value="networking">
+                        Networking Events
+                    </label><br><br>
+
+                    <!-- newsletter-->
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="subscribe" checked>
+                        Subscribe to our newsletter
+                    </label><br><br>
+
+                    <!-- comment -->
+                    <label for="comment">Additional Comments:</label><br>
+                    <textarea id="comment" name="comment" rows="6" cols="40" placeholder="Your feedback is welcome…"></textarea>
+
+                    <br><br>
+                    <!-- submit button -->
+                    <label for="submit">Register Now</label>
+                    <input type="submit" id="submit" name="submit">
+
+                </fieldset>
+
+
+            </form>
+        </section>
+    </main>
+
+
+    <footer>
+        <p>&copy; 2023 Horizon Events. All rights reserved.</p>
+</body>
+</html>
