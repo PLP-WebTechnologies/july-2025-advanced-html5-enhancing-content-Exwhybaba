@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/ew7e64j9)
-=======
->>>>>>> 6e74cb718578a5e4904a81eb269dd3447b8e1513
 # 📘 Assignment: Enhancing HTML5 Content & Mastering Forms
 
 ## Overview
